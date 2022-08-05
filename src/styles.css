@@ -19,7 +19,7 @@ h1 {
 }
 
 .description {
-  @apply text-trans-white;
+  @apply text-trans-white fm:mb-16;
 }
 
 .learn {
@@ -28,4 +28,11 @@ h1 {
 
 .attribution a {
   @apply text-b-orange;
+}
+
+
+@media(min-width:1440px) {
+  main {
+    width: 61.5rem;
+  }
 }
