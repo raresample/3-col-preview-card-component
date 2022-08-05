@@ -4,3 +4,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+main {
+  width: 375px;
+  margin: auto;
+}
+
+section {
+  @apply p-12;
+}
+
+h1 {
+  @apply font-heading uppercase text-v-l-grey text-4xl my-8;
+}
+
+.description {
+  @apply text-trans-white;
+}
+
+.learn {
+  @apply bg-v-l-grey mt-8 py-2 px-6 rounded-3xl border-v-l-grey border-2 hover:text-v-l-grey;
+}
+
+.attribution a {
+  @apply text-b-orange;
+}

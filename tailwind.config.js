@@ -3,6 +3,9 @@ module.exports = {
   content: ['./index.html'],
   theme: {
     extend: {
+      screens: {
+        fm: '1440px'
+      },
       fontFamily: {
         heading: ['Big Shoulders Display'],
         body: ['Lexend Deca']
