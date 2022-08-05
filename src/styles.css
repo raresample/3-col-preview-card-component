@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 main {
-  width: 375px;
+  width: 21rem;
   margin: auto;
 }
 
@@ -33,6 +33,6 @@ h1 {
 
 @media(min-width:1440px) {
   main {
-    width: 61.5rem;
+    width: 59.5rem;
   }
 }
